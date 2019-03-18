@@ -1,0 +1,69 @@
+------------------------------------------------------------------------
+| All endpoint must start with /api slug                               |
+------------------------------------------------------------------------
+| GET  | category                   | CategoryController@index         |    
+| GET  | category/{id}              | CategoryController@show          |   
+| PUT  | category/{id}              | CategoryController@update        |
+| POST | category                   | CategoryController@store         |
+------------------------------------------------------------------------
+| GET  | company                    | CompanyController@index          |
+| GET  | company/{id}               | CompanyController@show           |
+| PUT  | company/{id}               | CompanyController@update         |
+| POST | company                    | CompanyController@store          |
+------------------------------------------------------------------------ 
+| GET  | fastboat                   | FastboatController@index         |
+| GET  | fastboat/{id}              | FastboatController@@show         |
+| GET  | fastboat/{id}/route        | FastboatRouteController@index    |
+| GET  | fastboat/{id}/schedule     | FastboatScheduleController@index |
+| PUT  | fastboat/{id}              | FastboatController@update        |
+| POST | fastboat                   | FastboatController@store         |
+------------------------------------------------------------------------
+| GET  | route                      | RouteController@index            |
+| GET  | route/{id}                 | RouteController@show             |
+| PUT  | route/{id}                 | RouteController@update           |
+| POST | route                      | RouteController@store            |
+------------------------------------------------------------------------
+| GET  | schedule                   | ScheduleController@index         |
+| GET  | schedule/{id}              | ScheduleController@show          |
+| PUT  | schedule/{id}              | ScheduleController@update        |
+| POST | schedule                   | ScheduleController@store         |
+------------------------------------------------------------------------
+| GET  | harbor                     | HarborController@index           |
+| GET  | harbor/{id}                | HarborController@show            |
+| PUT  | harbor/{id}                | HarborController@update          |
+| POST | harbor                     | HarborController@store           |
+------------------------------------------------------------------------
+| GET  | package                    | PackageController@index          |
+| GET  | package/{id}               | PackageController@show           |
+| GET  | package/{id}/gallery       | PackageGalleryController@index   |
+| PUT  | package/{id}/gallery       | PackageGalleryController@update  |
+| POST | package/{id}/gallery       | PackageGalleryController@store   |
+| PUT  | package/{id}               | PackageController@update         |
+| POST | package                    | PackageController@store          |
+------------------------------------------------------------------------
+| GET  | purchase                   | PurchaseController@index         |
+| GET  | purchase/{id}              | PurchaseController@show          |
+| GET  | purchase/{id}/detail       | PurchaseDetailController@index   |
+| PUT  | purchase/{id}/detail       | PurchaseDetailController@update  |
+| POST | purchase/{id}/detail       | PurchaseDetailController@store   |
+| PUT  | purchase/{id}              | PurchaseController@update        |
+| POST | purchase                   | PurchaseController@store         |
+------------------------------------------------------------------------
+| GET  | purchaseDetail/{id}        | PurchaseDetailController@show    |
+------------------------------------------------------------------------
+| GET  | user                       | UserController@index             |
+| GET  | user/{id}                  | UserController@show              |
+| PUT  | user/{id}                  | UserController@update            |
+| POST | user                       | UserController@store             |
+------------------------------------------------------------------------
+| GET  | voucher                    | VoucherController@index          |
+| POST | voucher                    | VoucherController@store          |
+| GET  | voucher/{id}               | VoucherController@show           |
+| GET  | voucher/{id}/gallery       | VoucherGalleryController@index   |
+| PUT  | voucher/{id}/gallery/{id}  | VoucherGalleryController@destroy |
+| POST | voucher/{id}/gallery       | VoucherGalleryController@store   |
+| GET  | voucher/{id}/item          | VoucherItemController@index      |
+| POST | voucher/{id}/item          | VoucherItemController@store      |
+| PUT  | voucher/{id}/item/{id}     | VoucherItemController@update     |
+| GET  | voucher/{id}/item/{id}/rate| VoucherItemRateController@index  |
+------------------------------------------------------------------------

@@ -2,6 +2,10 @@
 
 use Illuminate\Http\Request;
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+// NOTE:: prefix is /v1
+
+Route::group([
+    'middleware' => 'api'
+], function($router) {
+    // your route goes here
 });

@@ -21,6 +21,12 @@ A step by step series of examples that tell you how to get a development env run
 
 * Update .env file for development purposes
 
+then open terminal and cd to your project and run
+
+```
+composer install
+```
+
 
 ## Running the tests
 
